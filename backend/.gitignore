@@ -1,0 +1,36 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+*.orig
+.env.test
