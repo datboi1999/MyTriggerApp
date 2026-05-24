@@ -1,16 +1,20 @@
 {
   "name": "trigger",
   "version": "1.0.0",
-  "description": "A high-performance browser-based growth engine for influencers and musicians.",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "description": "TRIGGER - High-performance browser-based growth engine",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "test": "turbo run test",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "devDependencies": {
+    "turbo": "^1.10.0",
+    "prettier": "^3.0.0"
+  }
 }

@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-trigger-navy text-trigger-white font-inter;
+  }
+
+  h1 {
+    @apply text-3xl font-bold text-trigger-white;
+  }
+
+  h2 {
+    @apply text-2xl font-bold text-trigger-white;
+  }
+
+  button {
+    @apply transition-all duration-200;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 rounded-lg bg-trigger-blue text-white font-semibold hover:shadow-trigger-glow transition-all;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 rounded-lg border border-trigger-blue text-trigger-blue hover:bg-trigger-blue hover:text-white transition-all;
+  }
+
+  .card {
+    @apply bg-trigger-navy-light rounded-lg p-4 border border-trigger-grey;
+  }
+
+  .input-field {
+    @apply bg-trigger-grey-text bg-opacity-10 border border-trigger-grey rounded-lg px-3 py-2 text-trigger-white placeholder-trigger-grey-text focus:outline-none focus:border-trigger-blue focus:ring-2 focus:ring-trigger-blue focus:ring-opacity-50;
+  }
+
+  .badge-active {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-trigger-green bg-opacity-20 text-trigger-green;
+  }
+
+  .glassmorphism {
+    @apply backdrop-blur-md bg-white bg-opacity-5 border border-white border-opacity-10 rounded-lg;
+  }
+}
