@@ -1,0 +1,53 @@
+This **Terms of Use** document for **TRIGGER** is designed to establish the legal framework for using the high-performance growth utility while maximizing protection for the developers and the company. 
+
+***
+
+### **TERMS OF USE FOR TRIGGER**
+
+**Last Updated:** May 22, 2026
+
+#### **1. Acceptance of Terms**
+By accessing or using **TRIGGER**, a browser-based growth engine engineered for automated social and music growth orchestration, you agree to be bound by these Terms of Use. If you do not agree to these terms, you must immediately cease all use of the platform.
+
+#### **2. Description of Service**
+TRIGGER functions as a direct utility-driven engagement system. The service provides automated behavioral engagement simulation, including but not limited to likes, follows, reposts, stream amplification, and audience retention stabilization. You acknowledge that TRIGGER is an automation utility and not a traditional SaaS productivity suite.
+
+#### **3. User Responsibility and Risk Acknowledgement**
+*   **Third-Party Platform Compliance:** TRIGGER orchestrates engagement across third-party platforms such as TikTok, Instagram, Spotify, and Apple Music. **You acknowledge that the use of automation tools may violate the Terms of Service of these third-party platforms.**
+*   **Assumption of Risk:** While TRIGGER is engineered to minimize detectable behavioral anomalies and mimic human interaction intervals, you use the service at your own risk. The company is not liable for any account suspensions, shadow-bans, content removals, or platform-side penalties resulting from the use of this utility.
+*   **Targeting and Objectives:** You are solely responsible for the content URLs provided and the growth objectives configured within the dashboard.
+
+#### **4. Subscription, Billing, and Refunds**
+*   **Billing Infrastructure:** Payments are processed via Paystack or Flutterwave with NGN transaction support. 
+*   **Recurring Revenue:** By selecting a tier (e.g., Influencer or Creative packages), you agree to recurring monthly subscription billing.
+*   **Anti-Fluctuation Retention Protocol:** Upon subscription expiration, the system will execute a "Retention Protocol," gradually reducing active automation rather than stopping it instantly to maintain engagement continuity. You acknowledge that this tapering is a functional requirement of the system's stability logic.
+
+#### **5. Limitation of Liability**
+*   **Service Availability:** While TRIGGER targets a minimum uptime SLA of 99.5%, the company does not guarantee uninterrupted service and is not liable for any losses during downtime or failover events.
+*   **Trigger Success Rate:** You acknowledge that the target trigger success rate is 98%, and the company is not liable for the 2% variance inherent in high-volume automation.
+*   **Data Retention:** The company retains trigger and activity logs for a period of 90–180 days for monitoring and security purposes.
+
+#### **6. Prohibited Activities**
+You agree not to:
+*   Use the utility for any fraudulent or illegal activity.
+*   Attempt to bypass the system's rate limiting, device fingerprinting, or session integrity validation.
+*   Create duplicate campaign conflicts by pasting identical URLs across multiple overlapping campaigns.
+
+#### **7. AI Optimization and Resource Allocation**
+TRIGGER utilizes AI-driven optimization to adjust interaction frequency and redistribute worker allocation. The company reserves the right to prioritize high-performing campaigns and scale trigger workers horizontally based on concurrency demand to maintain system-wide performance.
+
+#### **8. Intellectual Property**
+The "cyber-analytics" aesthetic, dashboard UI/UX, and the underlying AI optimization and Anti-Fluctuation Logic are the intellectual property of the developers. Unauthorized reproduction of the platform’s layout or logic is strictly prohibited.
+
+#### **9. Indemnification**
+You agree to indemnify, defend, and hold harmless the developers and the company from any claims, lawsuits, or damages (including legal fees) arising from your use of TRIGGER, your violation of these Terms, or your infringement of any third-party rights (including third-party platform Terms of Service).
+
+#### **10. Modifications to Service and Terms**
+The company reserves the right to modify the utility, subscription tiers, or these Terms at any time to ensure recurring billing sustainability and infrastructure cost-optimization (targeted at 0.99% of revenue). Continued use of the platform after changes constitutes acceptance of the new Terms.
+
+#### **11. Governing Law**
+These terms shall be governed by and construed in accordance with the laws of the jurisdiction where the company is registered, particularly regarding NGN-based financial transactions and digital service delivery.
+
+*** 
+
+**By clicking "Launch Campaign" or maintaining an active subscription, you confirm that you have read and accepted these Terms of Use in their entirety.**

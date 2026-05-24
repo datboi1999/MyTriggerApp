@@ -1,0 +1,699 @@
+# TRIGGER Web App — User Journey & App Flow Document
+
+## Product Overview
+
+**TRIGGER** is a high-performance AI-powered growth automation platform designed for influencers and musicians. The platform’s primary objective is to guide users from onboarding into an automated “Growth Engine” that activates engagement campaigns using **Anti-Fluctuation Logic** — a stabilization system that prevents unnatural spikes and maintains sustainable growth patterns.
+
+The platform is optimized for:
+
+* Social media influencers
+* Independent musicians/artists
+* Music labels and creator agencies
+* Digital marketers managing creator growth
+
+---
+
+# 1. Global UX/UI Architecture
+
+## Design System & Visual Language
+
+### Core Aesthetic (Dark Mode First)
+
+* **Primary Background:** Deep Midnight Navy (#060B1A)
+* **Secondary Surface:** Charcoal Blue Panels
+* **Primary CTA Buttons:** Vibrant Electric Blue
+* **Growth Indicators:** Neon Green
+* **Warning States:** Amber Orange
+* **Critical States:** Crimson Red
+* **Typography:** Clean geometric sans-serif (Inter / Satoshi style)
+* **Micro-Animations:** Smooth glow transitions and pulse effects
+
+---
+
+## Navigation Structure (Responsive)
+
+### Desktop Layout
+
+**Left Sidebar Navigation**
+
+1. Home (Dashboard)
+2. Campaign (Growth Setup)
+3. Analytics (Growth Trends)
+4. Settings
+
+### Mobile Layout
+
+**Bottom Navigation Bar**
+
+* Home
+* Campaign
+* Analytics
+* Settings
+
+### Sticky Utility Actions
+
+* Notifications Bell
+* AI Activity Status
+* User Profile Menu
+* Billing Status Indicator
+
+---
+
+# 2. Phase 1 — Secure Onboarding & Authentication
+
+---
+
+# Step 1 — Splash / Landing Experience
+
+## Objective
+
+Introduce the platform value proposition immediately.
+
+## UI Elements
+
+### Hero Section
+
+* Animated growth graph visualization
+* Rotating creator/influencer testimonials
+* CTA Buttons:
+
+  * “Start Growing”
+  * “Watch Demo”
+
+### Messaging
+
+* “AI-Powered Growth Stabilization”
+* “Anti-Fluctuation Engagement Engine”
+* “Built for Influencers & Musicians”
+
+---
+
+# Step 2 — Sign-Up / Login Interface
+
+## Authentication Options
+
+### Social Authentication
+
+* Google OAuth
+* Apple Sign-In
+
+### Traditional Authentication
+
+Fields:
+
+* Email Address
+* Password
+
+### Security Requirements
+
+Password must contain:
+
+* Minimum 8 characters
+* 1 symbol
+* 1 uppercase letter
+* 1 number
+
+### UX Features
+
+* Password visibility toggle
+* Real-time password strength meter
+* Auto-session persistence
+* Device recognition prompts
+
+---
+
+# Step 3 — Account Verification
+
+## Email Confirmation Flow
+
+1. User receives verification email
+2. Clicks secure verification link
+3. Redirected to onboarding success state
+
+---
+
+# Step 4 — Forgot Password Security Loop
+
+## Flow Structure
+
+### 1. Request Reset
+
+User inputs email address.
+
+### 2. OTP Verification
+
+System sends:
+
+* 4-digit OTP
+* Expiration timer (5 mins)
+
+### 3. OTP Validation
+
+Features:
+
+* Auto-focus input boxes
+* Auto-submit after final digit
+* Resend OTP timer
+
+### 4. Password Reset
+
+Requirements enforced:
+
+* 8+ characters
+* Symbol mandatory
+* Password confirmation required
+
+### 5. Success State
+
+* “Password Updated Successfully”
+* Auto-redirect to login
+
+---
+
+# 3. Phase 2 — 7-Step Growth Campaign Orchestrator
+
+---
+
+# Step 1 — Dashboard Entry Point
+
+## Dashboard Overview
+
+### Key Components
+
+* Total Growth Metrics
+* Active Campaigns
+* AI Status Monitor
+* Recent Activity Feed
+* Quick Analytics Snapshot
+
+### Primary CTA
+
+**“Start Campaign”**
+
+### UX Intent
+
+The CTA should visually dominate the screen using:
+
+* Neon glow animation
+* Elevated card positioning
+* Motion pulse effect
+
+---
+
+# Step 2 — Category Selection
+
+## Campaign Creation Screen
+
+### User Inputs
+
+#### Campaign Name
+
+Example:
+
+* “Spotify Naija Boost”
+* “TikTok Viral Push”
+
+### Category Options
+
+## A. Influencer (Social Media)
+
+Supported Platforms:
+
+* Instagram
+* TikTok
+* Facebook
+* X/Twitter
+* YouTube
+
+## B. Creator (Music & Audio)
+
+Supported Platforms:
+
+* Spotify
+* Audiomack
+* Boomplay
+* Apple Music
+* SoundCloud
+* YouTube Music
+
+---
+
+## UX Logic
+
+Once category is selected:
+
+* UI dynamically changes available platforms
+* Tier pricing updates automatically
+* AI recommendations adapt to category type
+
+---
+
+# Step 3 — Subscription Tier Selection
+
+## Influencer Category Tiers
+
+### Starter Tier
+
+Best for:
+
+* New creators
+* Small influencers
+
+Features:
+
+* Limited platform connections
+* Basic AI growth pacing
+* Standard analytics
+
+### Influencer Tier
+
+Best for:
+
+* Growing creators
+* Mid-level influencers
+
+Features:
+
+* More platform connections
+* Enhanced AI engagement automation
+* Advanced analytics
+
+### Business Tier
+
+Best for:
+
+* Agencies
+* High-volume creators
+
+Features:
+
+* Multi-platform orchestration
+* Team access
+* Priority AI processing
+* Enterprise analytics
+
+---
+
+## Billing Cycle Options
+
+Users choose:
+
+* Monthly
+* Quarterly
+* Semi-Annual
+* Yearly
+
+---
+
+## UX Enhancements
+
+* Savings calculator
+* “Most Popular” badges
+* Animated price transitions
+* Real-time NGN pricing updates
+
+---
+
+# Step 4 — Platform Selection
+
+## Dynamic Platform Allocation Logic
+
+The number of selectable platforms depends on:
+
+* Category chosen
+* Subscription tier selected
+
+---
+
+## Example UX Logic
+
+### Starter Tier
+
+* 1–2 platform limit
+
+### Influencer Tier
+
+* 3–5 platform limit
+
+### Business Tier
+
+* Unlimited or expanded platform access
+
+---
+
+## Platform Cards Include
+
+* Platform logo
+* Connection status
+* AI compatibility indicator
+* Estimated growth potential
+
+---
+
+## Smart UX Behavior
+
+Unavailable platforms:
+
+* Appear blurred/locked
+* Include upgrade CTA
+
+---
+
+# Step 5 — Platform Connection & Verification
+
+## Profile Connection Interface
+
+### User Action
+
+Paste:
+
+* Profile URL
+* Username
+* Artist profile link
+
+---
+
+## Automated Verification Logic
+
+### AI Auto-Detection
+
+System automatically:
+
+* Detects platform type
+* Validates account existence
+* Pulls profile image
+* Displays follower/stream count
+
+---
+
+## Verification States
+
+### Success
+
+* Green pulse animation
+* “Profile Synced Successfully”
+
+### Failed
+
+* Red error banner
+* “Invalid or unsupported profile”
+
+---
+
+## Anti-Fluctuation Logic Initialization
+
+Once profile is verified:
+
+* AI establishes baseline engagement rate
+* Detects abnormal traffic patterns
+* Sets safe automation pacing
+* Creates stabilization thresholds
+
+---
+
+# Step 6 — Campaign Confirmation
+
+## Final Review Screen
+
+### Summary Components
+
+* Campaign Name
+* Selected Tier
+* Billing Cycle
+* Connected Platforms
+* Estimated AI Activity
+* Predicted Growth Range
+
+---
+
+## AI Projection Card
+
+Displays:
+
+* Estimated engagement velocity
+* Daily stream/follower projections
+* Growth stabilization confidence
+
+---
+
+## User Actions
+
+Buttons:
+
+* “Edit Campaign”
+* “Proceed to Payment”
+
+---
+
+# Step 7 — Activation & Payment
+
+## Payment Gateway Integration
+
+Supported:
+
+* Paystack
+* Flutterwave
+
+### Supported Currency
+
+* NGN (Nigerian Naira)
+
+---
+
+## Checkout UX
+
+### Payment States
+
+1. Initializing Payment
+2. Secure Verification
+3. Processing
+4. Payment Successful
+
+---
+
+## Post-Payment System Actions
+
+Immediately after successful payment:
+
+* AI Growth Engine activates
+* Low-latency triggers initialize
+* Platform sync begins
+* AI engagement routines deploy
+
+---
+
+## Success Screen
+
+### Visual Feedback
+
+* Neon green success animation
+* “Campaign Activated”
+
+### CTA Options
+
+* “Go to Dashboard”
+* “View Analytics”
+
+---
+
+## Final Dashboard State
+
+Campaign Status:
+**ACTIVE**
+
+Displayed With:
+
+* Green live indicator
+* Real-time engagement tracking
+* AI activity monitoring
+
+---
+
+# 4. Phase 3 — Post-Launch Monitoring
+
+---
+
+# Analytics Dashboard
+
+## Growth Trends Section
+
+### Metrics Displayed
+
+#### Influencers
+
+* Followers gained
+* Engagement rate
+* Reach growth
+* Profile visits
+
+#### Musicians
+
+* Streams gained
+* Listener retention
+* Playlist reach
+* Regional audience growth
+
+---
+
+## Charts Included
+
+### Line Charts
+
+* Daily growth trends
+* Engagement consistency
+
+### Bar Charts
+
+* Platform contribution breakdown
+
+### Heatmaps
+
+* Best engagement periods
+
+---
+
+# Platform Contribution Module
+
+Displays:
+
+* Which platform performs best
+* Conversion efficiency
+* Stream/follower origin source
+
+Example:
+
+* Spotify → 48%
+* TikTok → 27%
+* Instagram → 25%
+
+---
+
+# AI Activity Feed
+
+## Real-Time Event Feed
+
+### Example Events
+
+* “Engagement Spike Detected”
+* “Profile Synced”
+* “AI Optimization Updated”
+* “Growth Stabilization Active”
+* “Campaign Momentum Increased”
+
+---
+
+## UX Characteristics
+
+* Live updating feed
+* Minimal latency refresh
+* Neon pulse indicators
+* Timestamped event logs
+
+---
+
+# 5. Performance & System Architecture Notes
+
+## Low-Latency Trigger System
+
+The platform should use:
+
+* Event-driven architecture
+* Queue-based AI execution
+* WebSocket real-time updates
+
+---
+
+## Expected UX Result
+
+Users see:
+
+* Engagement activity almost instantly
+* Live AI status changes
+* Real-time analytics refresh
+
+This immediate feedback loop increases:
+
+* Trust
+* Retention
+* Perceived campaign effectiveness
+
+---
+
+# 6. End-to-End User Journey Summary
+
+## Full User Flow
+
+1. User lands on TRIGGER homepage
+2. Signs up via Google/Apple or Email
+3. Verifies account
+4. Starts campaign from dashboard
+5. Selects category
+6. Chooses subscription tier
+7. Selects platforms
+8. Connects profiles
+9. Reviews AI growth plan
+10. Pays using Paystack/Flutterwave
+11. AI Growth Engine activates
+12. Dashboard updates to ACTIVE
+13. User monitors analytics and AI feed
+
+---
+
+# 7. User Story — Nigerian Musician (Spotify Growth)
+
+## Persona
+
+**Name:** Tobi
+**Role:** Independent Afrobeats Artist
+**Goal:** Increase Spotify streams and visibility in Nigeria
+
+---
+
+## User Journey Narrative
+
+Tobi discovers TRIGGER through a creator recommendation and visits the platform on mobile.
+
+He sees a dark-themed landing page with animated growth visuals and clicks **“Start Growing.”**
+
+He signs up using Google authentication and quickly verifies his account.
+
+Inside the dashboard, he clicks **“Start Campaign.”**
+
+He creates a campaign called:
+**“Naija Spotify Expansion.”**
+
+He selects:
+
+* Category: Creator
+* Platform: Spotify + Audiomack
+
+The AI verifies his Spotify artist profile automatically and displays his current monthly listeners.
+
+Tobi chooses a subscription plan and pays securely using Paystack in NGN.
+
+Within seconds:
+
+* The campaign status changes to ACTIVE
+* AI activity begins
+* The dashboard shows:
+
+  * “Profile Synced”
+  * “Engagement Stabilization Active”
+
+Over the next few days, Tobi tracks:
+
+* Stream growth
+* Nigerian audience engagement
+* Playlist reach
+
+The analytics dashboard shows:
+
+* Increased Spotify streams
+* Audience growth from Lagos and Abuja
+* AI-generated engagement spikes during peak listening hours
+
+Tobi now has:
+
+* Stable stream growth
+* Better audience retention
+* Increased visibility in the Nigerian music ecosystem

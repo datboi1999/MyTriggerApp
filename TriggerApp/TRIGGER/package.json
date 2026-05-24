@@ -4,8 +4,13 @@
   "description": "TRIGGER - High-performance browser-based growth engine",
   "private": true,
   "scripts": {
+    "install:all": "npm install && npm install --prefix apps/frontend && npm install --prefix apps/backend && cd apps/ai-agents && python -m venv venv && .\\venv\\Scripts\\activate && pip install -r requirements.txt",
     "dev": "turbo run dev --parallel",
+    "dev:frontend": "npm run dev --prefix apps/frontend",
+    "dev:backend": "npm run dev --prefix apps/backend",
+    "dev:ai": "cd apps/ai-agents && .\\venv\\Scripts\\activate && uvicorn humanizer.main:app --reload --port 8001",
     "build": "turbo run build",
+    "build:all": "npm run build --prefix apps/frontend && npm run build --prefix apps/backend",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
     "test": "turbo run test",

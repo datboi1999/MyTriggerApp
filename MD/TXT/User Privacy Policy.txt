@@ -1,0 +1,59 @@
+This **User Privacy Policy** for **TRIGGER** is designed to outline the data handling practices of the growth engine while providing maximum legal protection for the developers and the company by emphasizing the utility nature of the service and the user’s role in data submission.
+
+***
+
+### **USER PRIVACY POLICY FOR TRIGGER**
+
+**Last Updated:** May 22, 2026
+
+#### **1. Introduction and Scope**
+**TRIGGER** is a high-performance browser-based utility for automated social growth orchestration. This Privacy Policy describes how we collect, use, and protect information when you use our automated behavioral engagement simulation services. By using the platform, you acknowledge that you are directing a utility to perform actions on your behalf across third-party social and music ecosystems.
+
+#### **2. Information We Collect**
+To facilitate high-performance automation and real-time analytics, we collect the following categories of information:
+*   **Account and Authentication Data:** Email addresses, hashed passwords, and session data secured via **JWT-based authentication**.
+*   **Campaign and Orchestration Data:** Information you provide to launch campaigns, including **target content/profile URLs**, growth objectives, and metadata fetched from those URLs.
+*   **Targeting Parameters:** Geographic targets (cities, states, countries) and demographic filters (age segments, gender ratios, music genre affinity) configured by the user.
+*   **Technical and Security Data:** **IP addresses**, **device fingerprints**, and session integrity logs used for abuse protection and IP anomaly detection.
+*   **Payment Metadata:** Transaction references and subscription statuses managed via Paystack and Flutterwave; we do not store full credit card numbers on our servers.
+
+#### **3. How We Use Your Information**
+Your data is processed strictly to fulfill the functional requirements of the utility:
+*   **Automation and Execution:** To simulate human-like engagement (likes, follows, streams) and coordinate cross-platform triggers.
+*   **AI Optimization:** To analyze growth velocity and engagement ratios to adjust trigger schedules and optimize frequency through **predictive scoring**.
+*   **Retention Stabilization:** To monitor engagement decay and execute **Anti-Fluctuation Logic** to prevent growth volatility.
+*   **Real-Time Analytics:** To populate the **Analytics Hub** and **AI Activity Feed** with 3-second refresh intervals for your monitoring.
+
+#### **4. Data Sharing and Third-Party Platforms**
+*   **Orchestration Targets:** When you provide a URL, the system interacts with third-party platforms (e.g., TikTok, Spotify, Instagram) to execute your requested engagement. **We are not responsible for how these third-party platforms collect or use your data once engagement is simulated.**
+*   **Payment Processors:** Financial data is processed by **Paystack and Flutterwave** for NGN transactions and subscription billing.
+*   **Legal Compliance:** We may disclose information if required by law or to protect the safety and integrity of our high-performance infrastructure.
+
+#### **5. Data Security and Encryption**
+We implement industry-standard security to protect your data from unauthorized access:
+*   **Encryption:** All stored data is secured with **AES-256 encryption**, and all transmissions are protected via **TLS 1.3**.
+*   **Infrastructure Protection:** We utilize **Cloudflare** for DNS security and bot anomaly monitoring to prevent system exploitation.
+*   **Isolation:** Distributed trigger workers operate within asynchronous event pipelines to ensure localized data processing.
+
+#### **6. Data Retention**
+To maintain system performance and support forensic auditing, we retain:
+*   **Trigger execution logs, payment logs, and campaign activity history** for a period of **90–180 days**.
+*   Archived campaign data is maintained to provide historical growth trends in the Analytics Hub.
+
+#### **7. User Rights and Choices**
+*   **Campaign Control:** Users have full control to pause or delete campaigns, which stops the active automation and engagement triggers.
+*   **Subscription Management:** Users can upgrade or downgrade tiers, which modifies the data processing volume and platform access.
+
+#### **8. Limitation of Liability Regarding Privacy**
+*   **Publicly Available Data:** By providing content/profile URLs for growth orchestration, you acknowledge that such data is already public. TRIGGER is not liable for platform-side privacy changes or account actions taken by third-party services.
+*   **Utility Status:** You agree that TRIGGER acts as a **technical intermediary** executing your specific instructions. Any privacy implications resulting from the volume or nature of the growth you request are your sole responsibility.
+
+#### **9. Changes to This Policy**
+We reserve the right to update this policy to reflect changes in our **AI Resource Allocation** or infrastructure requirements. Continued use of the utility constitutes acceptance of the updated Privacy Policy.
+
+#### **10. Contact Information**
+For inquiries regarding data protection or session integrity, users may contact the technical utility support team.
+
+***
+
+**By using TRIGGER, you consent to the collection and processing of data as described above for the purpose of high-performance growth orchestration.**
